@@ -50,7 +50,7 @@ def click_text(self, text, imagename):
     usage:
     imgsr = 'imgsr.png'
     imgobj = 'imgobj.png'
-    self.Locate_Image_Click.click_text(self, '待查找文字'， '屏幕截图的名字')
+    self.Locate_Image_Click.click_text(self, '带查找文字'， '屏幕截图的名字')
     '''
 
     sleep(1)
