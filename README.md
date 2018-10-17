@@ -34,7 +34,7 @@ def click(self, imgsrc, imgobj):
     imgsrc = 'path to imgsrc.png'
     imgobj = 'path to imgobj.png'
     self.Locate_Image_Click.click(imgsrc, imgobj)
-
+<font color=#A52A2A size=4 >注：</font>  
 2、**click_text**  
 ```
     sleep(1)
@@ -125,4 +125,10 @@ def click(self, imgsrc, imgobj):
 
     else:
         print('目前最多支持3个字！')
+```
+
+调用例子
+
+```
+
 ```
