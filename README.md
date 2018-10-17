@@ -11,6 +11,7 @@
 3、[Appium](http://appium.io)( *Appium的安装我就不再这里赘述了，有问题的小伙伴可以私信我。*)  
 ***
 ## 用法：
+文件名：Locate_Image_Click.py
 两个模块：  
 
 1、**click**  
@@ -36,6 +37,8 @@ def click(self, imgsrc, imgobj):
     self.Locate_Image_Click.click(imgsrc, imgobj)
 ```    
 
+注：  
+1、这里只用到了aircv的SIFT查找图像，另外还有SIFT多个相同的部分查找、直接匹配查找图像，感兴趣的同学可以自行去了解。
 
 2、**click_text**  
 ```
@@ -134,6 +137,6 @@ def click_text(self, text, imagename):
 调用例子
 
 ```
-self.Locate_Image_Click.click_text(self, '带查找文字', '屏幕截图的名字')
+self.Locate_Image_Click.click_text(self, '待查找文字', '屏幕截图的名字')
 
 ```
