@@ -30,10 +30,11 @@ def click(self, imgsrc, imgobj):
 ```
 
 调用例子：  
-    
+```    
     imgsrc = 'path to imgsrc.png'
     imgobj = 'path to imgobj.png'
     self.Locate_Image_Click.click(imgsrc, imgobj)
+```    
 <table><tr><td bgcolor=orange> 背景色是 1 orange</td></tr></table>
 2、**click_text**  
 ```
