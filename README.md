@@ -36,8 +36,9 @@ def click(self, imgsrc, imgobj):
     imgobj = 'path to imgobj.png'
     self.Locate_Image_Click.click(imgsrc, imgobj)
 ```    
-
+```
 注：这里只用到了aircv的SIFT查找图像，另外还有SIFT多个相同的部分查找、直接匹配查找图像，感兴趣的同学可以自行去了解。
+```
 
 2、**click_text**  
 ```python
@@ -139,4 +140,6 @@ def click_text(self, text, imagename):
 self.Locate_Image_Click.click_text(self, '待查找文字', '屏幕截图的名字')
 
 ```
+```
 注：目前支持1-3个中文定位点击，合理利用可以事半功倍。
+```
