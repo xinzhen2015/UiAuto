@@ -12,34 +12,25 @@
 ***
 ## 用法：
 两个模块：  
+
 1、**click**  
 ```
 def click(self, imgsrc, imgobj):
 
-    '''
-    @Time    : 2018/9/17
-    @Author  : 诸葛小心
-    @File    : Locate_Image_Click.py
-
-    instruction:
-    基于aircv图像识别，传入待查找的图片、原图，则定位到带查找图片在原图上的坐标点
-
-    usage:
-    imgsr = 'imgsr.png'
-    imgobj = 'imgobj.png'
-    self.Locate_Image_Click.click(imgsrc, imgobj)
-    '''
-
     imsrc = ac.imread(imgsrc)  # 原始图像
     imsch = ac.imread(imgobj)  # 待查找的部分
     position = ac.find_sift(imsrc, imsch)
-
-    # print(position)
 
     x, y = position['result']
 
     print("x = ", x)
     print("y = ", y)
 
-    self.driver.swipe(x, y, x, y, 50)
+    self.driver.swipe(x, y, x, y, 50)  # 点击操作
 ```
+
+调用例子：  
+    
+    imgsr = 'imgsr.png'
+    imgobj = 'imgobj.png'
+    self.Locate_Image_Click.click(imgsrc, imgobj)
