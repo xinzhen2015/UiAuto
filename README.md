@@ -11,7 +11,7 @@
 3、[Appium](http://appium.io)( *Appium的安装有问题的小伙伴可以私信我。*)  
 ***
 ## 用法：
-文件名：Locate_Image_Click.py
+文件名：Locate_Image_Click.py  
 两个模块：  
 
 1、**click**  
