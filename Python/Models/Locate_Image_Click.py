@@ -58,7 +58,7 @@ def click_text(self, text, imagename):
     self.driver.get_screenshot_as_file(imagename)  # 截屏保存在执行脚本文件夹
 
     if len(text) is None:
-        print('请输入需要点击的文字，目前最多支持2个字！')
+        print('请输入需要点击的文字，目前最多支持3个字！')
 
     elif len(text) == 1:
 
