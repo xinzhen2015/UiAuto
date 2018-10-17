@@ -37,8 +37,7 @@ def click(self, imgsrc, imgobj):
     self.Locate_Image_Click.click(imgsrc, imgobj)
 ```    
 
-注：  
-1、这里只用到了aircv的SIFT查找图像，另外还有SIFT多个相同的部分查找、直接匹配查找图像，感兴趣的同学可以自行去了解。
+注：这里只用到了aircv的SIFT查找图像，另外还有SIFT多个相同的部分查找、直接匹配查找图像，感兴趣的同学可以自行去了解。
 
 2、**click_text**  
 ```
