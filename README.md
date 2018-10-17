@@ -154,13 +154,9 @@ MAC系统：
 
 brew install tesseract # 安装
 
-brew list tesseract  
-# Training directories can be found using brew list tesseract Possible location can be /usr/local/Cellar/tesseract/3.05.02/share/tessdata/
+tesseract [path to image] outputbase -l chi_sim makebox # chi_sim 是官方训练的中文识别库 ，makebox参数会生成一个保存文字坐标的文件（out.box）
 
-tesseract [path to image] outputbase -l chi_sim makebox  
-# chi_sim 是官方训练的中文识别库 ，makebox参数会生成一个保存文字坐标的文件（out.box）
-
-cat output.txt  # 抓取输出txt，在命令行里看到识别出的txt说明本地可以跑通。
+cat output.txt  # 抓取输出txt，在命令行里看到识别出的txt，说明本地可以跑通。
 ```
 4、[数据训练](https://github.com/tesseract-ocr/langdata)
 
