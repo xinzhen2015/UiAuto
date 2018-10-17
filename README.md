@@ -31,6 +31,6 @@ def click(self, imgsrc, imgobj):
 
 调用例子：  
     
-    imgsr = 'imgsr.png'
-    imgobj = 'imgobj.png'
+    imgsrc = 'path to imgsrc.png'
+    imgobj = 'path to imgobj.png'
     self.Locate_Image_Click.click(imgsrc, imgobj)
