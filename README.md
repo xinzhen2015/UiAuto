@@ -134,7 +134,7 @@ def click_text(self, text, imagename):
         print('目前最多支持3个字！')
 ```
 
-调用例子
+调用例子：
 
 ```python
 self.Locate_Image_Click.click_text(self, '待查找文字', '屏幕截图的名字')
