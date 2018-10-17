@@ -160,7 +160,7 @@ cat output.txt  # 抓取输出txt，在命令行里看到识别出的txt，说�
 ```
 4、[数据训练](https://github.com/tesseract-ocr/langdata)
 
-[chi_sim下载](https://github.com/tesseract-ocr/tessdata)
+5、[chi_sim下载](https://github.com/tesseract-ocr/tessdata)
 ```
 注：  
 1、chi_sim 下载后放在 /usr/local/Cellar/tesseract/3.05.02/share/tessdata/
