@@ -6,7 +6,7 @@
 实现有目标截图和原图的情况下，完成对目标截图在原图上的点击操作。
 ***
 ## 依赖：
-1、[aircv](https://github.com/NetEaseGame/aircv)( *网易开源的项目，基于图像识别，定位到待点击图片位置。*)  
+1、[aircv](https://github.com/NetEaseGame/aircv)( *网易开源的项目，基于图像识别，定位到待点击图片位置。Find object position based on python-opencv2 for python2.7+*)  
 2、[tesseract](https://github.com/tesseract-ocr/tesseract)( *Tesseract Open Source OCR Engine，基于文字识别的引擎。有兴趣的同学可以深入去了解一下。*)  
 3、[Appium](http://appium.io)( *Appium的安装我就不再这里赘述了，有问题的小伙伴可以私信我。*)  
 ***
