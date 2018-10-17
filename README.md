@@ -145,4 +145,23 @@ self.Locate_Image_Click.click_text(self, '待查找文字', '屏幕截图的名�
 1、目前支持1-3个中文定位点击，合理利用可以事半功倍。
 2、很重要！这里调用tesseract，直接用的系统命令，所以首先需要在本机上跑通tesseract。
 ```
-## tesseract本机安装  
+## tesseract本机安装：
+1、[安装方法](https://github.com/tesseract-ocr/tesseract/wiki)  
+2、[命令行使用方法](https://github.com/tesseract-ocr/tesseract/wiki/Command-Line-Usage)  
+3、本机调试  
+```
+MAC系统：  
+
+brew install tesseract # 安装
+
+brew list tesseract  
+# Training directories can be found using brew list tesseract Possible location can be /usr/local/Cellar/tesseract/3.05.02/share/tessdata/
+
+tesseract [path to image] outputbase -l chi_sim makebox  
+# chi_sim 是官方训练的中文识别库 ，makebox参数会生成一个保存文字坐标的文件（out.box）
+# [chi_sim下载地址](https://github.com/tesseract-ocr/tessdata)
+# chi_sim 下载后放在 /usr/local/Cellar/tesseract/3.05.02/share/tessdata/
+# 如果感觉识别不够准确，可以自己训练数据。[训练](https://github.com/tesseract-ocr/langdata)
+
+cat output.txt  # 抓取输出txt，在命令行里看到识别出的txt说明本地可以跑通。
+```
