@@ -39,6 +39,8 @@ def click(self, imgsrc, imgobj):
 
 2、**click_text**  
 ```
+def click_text(self, text, imagename):
+    
     sleep(1)
     h = self.driver.get_window_size()['height']    # 获取屏幕高度
     self.driver.get_screenshot_as_file(imagename)  # 截屏保存在执行脚本文件夹
