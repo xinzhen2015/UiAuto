@@ -35,7 +35,8 @@ def click(self, imgsrc, imgobj):
     imgobj = 'path to imgobj.png'
     self.Locate_Image_Click.click(imgsrc, imgobj)
 ```    
-<table><tr><td bgcolor=orange> 背景色是 1 orange</td></tr></table>
+
+
 2、**click_text**  
 ```
     sleep(1)
