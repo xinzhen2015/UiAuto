@@ -15,7 +15,7 @@
 两个模块：  
 
 1、**click**  
-```
+```python
 def click(self, imgsrc, imgobj):
 
     imsrc = ac.imread(imgsrc)  # 原始图像
@@ -31,7 +31,7 @@ def click(self, imgsrc, imgobj):
 ```
 
 调用例子：  
-```    
+```python    
     imgsrc = 'path to imgsrc.png'
     imgobj = 'path to imgobj.png'
     self.Locate_Image_Click.click(imgsrc, imgobj)
@@ -40,7 +40,7 @@ def click(self, imgsrc, imgobj):
 注：这里只用到了aircv的SIFT查找图像，另外还有SIFT多个相同的部分查找、直接匹配查找图像，感兴趣的同学可以自行去了解。
 
 2、**click_text**  
-```
+```python
 def click_text(self, text, imagename):
     
     sleep(1)
@@ -135,7 +135,7 @@ def click_text(self, text, imagename):
 
 调用例子
 
-```
+```python
 self.Locate_Image_Click.click_text(self, '待查找文字', '屏幕截图的名字')
 
 ```
