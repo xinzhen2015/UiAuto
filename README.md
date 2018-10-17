@@ -10,3 +10,6 @@
 2、[tesseract](https://github.com/tesseract-ocr/tesseract)( *Tesseract Open Source OCR Engine，基于文字识别的引擎。有兴趣的同学可以深入去了解一下*)  
 3、[Appium](http://appium.io)( *Appium的安装我就不再这里赘述了，有问题的小伙伴可以私信我。*)  
 ***
+## 用法：
+共两个模块：
+1、**click**  
